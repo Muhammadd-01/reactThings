@@ -37,8 +37,8 @@ function changeColour() {
   }
 
   return (
-    <div>
-      <h1 style={{ color: colour  , backgroundColor: "white" }}><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laborum, corporis aliquam, unde numquam ea molestiae voluptatibus eius possimus natus expedita deleniti blanditiis dignissimos delectus sapiente temporibus tempora porro architecto.</p></h1>
+    <div style={{ backgroundColor: colour , height : "100vh"}}>
+      
       <button onClick={change}>Change colour</button>
       <button onClick={resetColour}>Reset colour</button>
     </div>
