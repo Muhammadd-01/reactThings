@@ -25,25 +25,27 @@ import { useState, React } from "react";
 
 // export default Counter;
 
-function changeColour() {
-  const [colour, setColour] = useState("white");
+// function changeColour() {
+//   const [colour, setColour] = useState("white");
 
-  const change=() => {
-    setColour("black");
-  }
+//   const change=() => {
+//     setColour("black");
+//   }
 
-  const resetColour = () => {
-    setColour("white");
-  }
+//   const resetColour = () => {
+//     setColour("white");
+//   }
 
-  return (
-    <div style={{ backgroundColor: colour , height : "100vh"}}>
+//   return (
+//     <div style={{ backgroundColor: colour , height : "100vh"}}>
       
-      <button onClick={change}>Change colour</button>
-      <button onClick={resetColour}>Reset colour</button>
-    </div>
-  );
-}
+//       <button onClick={change}>Change colour</button>
+//       <button onClick={resetColour}>Reset colour</button>
+//     </div>
+//   );
+// }
 
-export default changeColour;
+// export default changeColour;
 // Inside your App.jsx file:
+
+
